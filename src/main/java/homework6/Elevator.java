@@ -2,8 +2,8 @@ package homework6;
 
 public class Elevator {
 
-    private int minFloor;
-    private int maxFloor;
+    private final int minFloor;
+    private final int maxFloor;
     private int floor;
 
     public Elevator(int minFloor, int maxFloor) {
